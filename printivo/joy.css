@@ -1,0 +1,289 @@
+body{
+    overflow-x: hidden;
+}
+.need{
+    margin-left: 25vh;
+}
+.imgg{
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    
+}
+.disp{
+    display: flex;
+}
+.niger{
+    padding: 60px;
+    color: rgb(53,74,101);
+}
+.nigerr{
+    padding: 60px;
+    background-color: rgb(247,246,241);
+}
+.subs{
+    padding: 60px;
+    background-color: rgb(235,232,214);
+}
+
+.nige{
+    font-size:25px;
+    margin-left: 35px;
+    color: rgb(53,74,101);
+}
+.print{
+    width: 70px;
+    height: 70px;
+}
+.prints{
+    width: 200px;
+    height: 50px;
+}
+
+.what{
+    background-color: rgb(234,246,252);
+    padding: 70px;
+}
+.niger h4{
+    font-size: 30px;
+}
+.butt{
+    border: thin solid black;
+    width: 80px;
+}
+.bgg{
+    background-color: rgb(235,232,214);
+}
+.left{
+    margin-left: 60vh;
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+}
+.left a{
+    margin-left: 20px;
+}
+.lolo{
+    width: 200px;
+}
+.lastly{
+    padding: 40px;
+    background-color: rgb(216,216,214);
+}
+.foot{
+    padding: 60px;
+    background-color: rgb(53,74,101);
+}
+.colo{
+    color: rgb(235,232,214);
+    font-size: 23px;
+}
+.btnn{
+    transform: translateX(-33vh);
+    height: 12vh;
+    margin: auto;
+    width: 40vh;
+    background-color: rgb(53,74,101);
+    color: white;
+    font-size: 20px;
+}
+.inpss{
+    margin-left: 40px;
+    width: 80vh;
+    border: none;
+    border-radius: 8px;
+    height: 15vh;
+}
+.inps{
+    margin-left: 30px;
+    width: 130vh;
+    border: none;
+    border-radius: 8px;
+    height: 15vh;
+}
+h1{
+    font-size: 80px;
+}
+.inp{
+    width: 100vh;
+    height: 15vh;
+    border: none;
+}
+.hand{
+    width: 50vh;
+    height: 50vh;
+    transform: translateX(57vh);
+    /* display: none; */
+}
+
+.damn{
+    float: right;
+    text-decoration: none;
+}
+.browse{
+    background-color: rgb(254,127,110);
+    border: none;
+}
+.hove{
+    height: 35vh;
+}
+.hove:hover{
+    transform: scale(90%);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+.popular{
+    font-size: 30px ;
+}
+.leff{
+    width: 15rem;
+}
+.dispp{
+    display: flex;
+}
+.lef{
+    margin-left: 30px;
+    width: 15rem;
+}
+@media (max-width:760px) {
+    .prints{
+        width: 80px;
+        height: 30px;
+    }
+    .nige{
+        font-size: 20px;
+        margin-left: 2px;
+        color: rgb(53,74,101);
+    }
+    .micro{
+        width: 70vh;
+    }
+    .dispp{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vh;
+    }
+    .btnn{
+        transform: translateX(40vh);
+        height: 12vh;
+        margin-top: 10px;
+        width: 40vh;
+        background-color: rgb(53,74,101);
+        color: white;
+        font-size: 20px;
+    }
+    .inps{
+        margin-left: 5px;
+        width: 70vh;
+        border: none;
+        border-radius: 8px;
+        height: 15vh;
+        margin-top: 10px;
+    }
+    .inpss{
+        margin-left: 5px;
+        width: 70vh;
+        border: none;
+        border-radius: 8px;
+        height: 15vh;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .inp{
+        width: 5vh;
+        height: 5vh;
+        border: none;
+    }
+    .subs{
+        padding: 6px;
+        /* background-color: rgb(235,232,214); */
+    }
+    .sub h4{
+        font-size: 10px;
+    }
+    .dflex{
+        display: block;
+        margin: auto;
+    }
+    .disp{
+        display: block;
+    }
+    .need{
+        margin-left: 25vh;
+    }
+    .imgg{
+        width: 40px;
+        height: 40px;
+        /* margin-left: 10px; */
+        
+    }
+    .butt{
+        border: thin solid black;
+        width: 80px;
+    }
+    .bgg{
+        background-color: rgb(235,232,214);
+    }
+    /* .left{
+        margin-left: 60vh;
+    }
+    .left a{
+        margin-left: 20px;
+    } */
+    h1{
+        font-size: 40px;
+    }
+    input{
+        width: 70vh;
+        height: 15vh;
+        border: none;
+    }
+    .hand{
+        width: 50vh;
+        height: 50vh;
+        transform: translateX(57vh);
+        display: none;
+    }
+    
+    .damn{
+        float: right;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .browse{
+        background-color: rgb(254,127,110);
+        border: none;
+    }
+    .hove{
+        height: 35vh;
+    }
+    .hove:hover{
+        transform: scale(90%);
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 30px; */
+        
+    }
+    .leff{
+        margin: auto;
+        width: 40rem;
+    }
+    .lef{
+        /* margin-left: 30px; */
+        margin: auto;
+        width: 40rem;
+    }
+    .popular{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+}

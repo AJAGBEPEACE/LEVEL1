@@ -1,0 +1,87 @@
+body {
+    background-color: #fbfbfb;
+    }
+    @media (min-width: 991.98px) {
+    main {
+    padding-left: 240px;
+    }
+    }
+    /* Sidebar */
+    .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+    }
+    
+    @media (max-width: 991.98px) {
+    .sidebar {
+    width: 100%;
+    }
+    }
+    .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    }
+    
+    .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+    .wid{
+    margin-top: -10vh;
+    width: 40vh !important;
+    }
+    .add{
+        text-align: center;
+        width: 25vh;
+        height: 30px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: #FF6800;
+    }
+    .recent{
+        margin-left: 85vh;
+    }
+    .lock {
+        font-size: 12px;
+    }
+    .damn {
+        font-size: 10px;
+    }
+    .left{
+        float: right;
+        margin-top: -40px;
+    }
+    .go{
+        background-color: #FF6800;
+        font-size: 20px;
+        font-weight: 900;
+        margin-left: 75vh;
+    }
+    .goo{
+        background-color: #FF6800;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .ded{
+       color:#D3D3D3;
+       font-weight: bolder;
+    }
+    .font{
+        font-size: 15px;
+        height: 40px;
+    }
+    .days{
+        font-size: 15px;
+    }

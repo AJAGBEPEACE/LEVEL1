@@ -1,0 +1,451 @@
+body{
+    overflow-x: hidden;
+    /* overflow-x: scroll; */
+}
+.leff{
+    margin-left: 140vh;
+}
+.get:hover{
+    text-decoration: underline;
+}
+.get{
+    box-shadow: 0 3px 10px 0 cyan;
+}
+.want{
+    padding: 60px;
+    background-color: rgb(241,250,254);
+}
+.got{
+    width: 100vh;
+    height: 85vh;
+    margin-left: 40vh;
+    padding: 30px;
+}
+.lin{
+    width: 2px;
+    padding: 0;
+    height: 80vh;
+    transform: translateX(32vh);
+    background-color: blue;
+}
+.hh{  
+    height: 20vh;
+    width: 100%;
+}
+
+.hh{
+    height: 20vh;
+    width: 100%;
+    background-color: white; 
+    border-radius: 10px;  
+    padding: 30px 20px;
+    position: relative;
+    transition: all .3s ease-out;
+    cursor: pointer;
+    width: 100%!important;
+} 
+.ff{
+    width: 100% !important;
+    margin-top: 130vh !important;
+    height: 80vh;
+}
+.ff1{
+    height: 125vh;
+    margin-top: 160vh;
+    background-color: #0050C7;
+}
+
+.come{
+    box-shadow: 0 3px 0 0 blue;
+}
+.size{
+    font-size: 15px;
+}
+.btnn{
+    transform: translateY(-35px);
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.hove{
+    z-index: 8;
+    background-color: #fff !important;
+    width: 15rem;
+     height: 32rem; 
+     border-radius: 15px;
+
+}
+.hove .btnn:hover{
+    background-color: cyan;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blue{
+    height: 20vh;
+    transform: translateY(-20vh);
+    /* z-index: 2; */
+}
+.slick-slide1{
+    animation-name: slide1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: var(-3s);
+    animation-delay: 4s;
+    padding: 20px;
+    color:white;
+    text-align: right;
+}
+ @keyframes slide1 {
+     100%{
+        transition-delay: 9s;
+        transform: translate(2vh);
+        transition-duration: 2vh;
+        background-color: #fff;
+        border-radius: 5px;
+        color:black;
+     }
+     0%{
+        transform: translate(0vh);
+     }
+
+ }
+.slick-slide3{
+    animation-name: slide3;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: normal;
+    /* animation-iteration-count: infinite; */
+    border-radius: 5px;
+    animation-delay: s;
+    padding: 20px;
+    color:white;
+    text-align: right;
+}
+.sub-heading{
+    color: cyan;
+    text-align: right;
+}
+ @keyframes slide3 {
+     100%{
+        transform: translate(2vh);
+        background-color: #fff;
+        color:black;
+     }
+     0%{
+        transform: translate(0vh);
+     }
+
+ }
+.slick-slide2{
+    animation-name: slide2;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: normal;
+    /* animation-iteration-count: infinite; */
+    border-radius: 5px;
+    animation-delay: 3s;
+    padding: 20px;
+    color:white;
+    text-align: right;
+}
+ @keyframes slide2 {
+     100%{
+        transform: translate(2vh);
+        background-color: #fff;
+        color:black;
+     }
+     0%{
+        transform: translate(0vh);
+     }
+
+ }
+ .cars1{
+    z-index: 8;
+    animation-name: car1;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+    height: 12vh;
+    margin-top: -17vh;
+ }
+ @keyframes car1 {
+    100%{
+        transform: translateX(80vh);
+    }
+    0%{
+        transform: translateX(-380vh);
+    }
+ }
+ .cars2{
+    z-index: 10;
+    animation-name: car2;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    background-repeat: repeat;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+    height: 15vh;
+    margin-top: -25vh;
+ }
+ @keyframes car2 {
+    100%{
+        transform: translateX(-480vh);
+    }
+    0%{
+        transform: translateX(20vh);
+    }
+ }
+ .butt{
+    width: 40px;
+    margin-left: 30px;
+ }
+ .butt:hover{
+    color: green !important;
+ }
+ .comp{
+    text-decoration: none;
+ }
+ .comp:hover{
+    text-decoration: underline;
+    color: green !important;
+ }
+ .join{
+    height: 50px;
+    width: 30vh;
+    margin-left: 20vh;
+ }
+
+
+ /* media query */
+ @media (max-width:896px) {
+    body{
+        overflow-x: hidden;
+        /* overflow-x: scroll; */
+    }
+    .leff{
+        margin-left: 140vh;
+    }
+    
+    .get:hover{
+        text-decoration: underline;
+    }
+    .get{
+        box-shadow: 0 3px 10px 0 cyan;
+    }
+    .want{
+        padding: 60px;
+        background-color: rgb(241,250,254);
+    }
+    .got{
+        width: 100vh;
+        height: 85vh;
+        margin-left: 40vh;
+        padding: 30px;
+        display: none;
+    }
+    .lin{
+        width: 2px;
+        padding: 0;
+        height: 80vh;
+        transform: translateX(32vh);
+        background-color: blue;
+    }
+    .hh{  
+        height: 20vh;
+        width: 100%;
+    }
+    
+    .hh{
+        height: 20vh;
+        width: 100%;
+        background-color: white; 
+        border-radius: 10px;  
+        padding: 30px 20px;
+        position: relative;
+        transition: all .3s ease-out;
+        cursor: pointer;
+        width: 100%!important;
+    } 
+    .ff{
+        width: 100% !important;
+        margin-top: 130vh !important;
+        height: 80vh;
+    }
+    .ff1{
+        height: 125vh;
+        margin-top: 160vh;
+        background-color: #0050C7;
+    }
+    
+    .come{
+        box-shadow: 0 3px 0 0 blue;
+    }
+    .size{
+        font-size: 15px;
+    }
+    .btnn{
+        transform: translateY(-35px);
+        background-color: white;
+        box-shadow: 1px 1px 10px 1px black;
+    }
+    .hove{
+        z-index: 8;
+        width: 70rem;
+        background-color: #fff !important;
+    
+    }
+    .hove .btnn:hover{
+        background-color: cyan;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .blue{
+        height: 20vh;
+        transform: translateY(-20vh);
+        /* z-index: 2; */
+    }
+    .slick-slide1{
+        animation-name: slide1;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-direction: normal;
+        animation-iteration-count: var(-3s);
+        animation-delay: 4s;
+        padding: 20px;
+        color:white;
+        text-align: right;
+    }
+     @keyframes slide1 {
+         100%{
+            transition-delay: 9s;
+            transform: translate(2vh);
+            transition-duration: 2vh;
+            background-color: #fff;
+            border-radius: 5px;
+            color:black;
+         }
+         0%{
+            transform: translate(0vh);
+         }
+    
+     }
+    .slick-slide3{
+        animation-name: slide3;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        animation-direction: normal;
+        /* animation-iteration-count: infinite; */
+        border-radius: 5px;
+        animation-delay: s;
+        padding: 20px;
+        color:white;
+        text-align: right;
+    }
+    .sub-heading{
+        color: cyan;
+        text-align: right;
+    }
+     @keyframes slide3 {
+         100%{
+            transform: translate(2vh);
+            background-color: #fff;
+            color:black;
+         }
+         0%{
+            transform: translate(0vh);
+         }
+    
+     }
+    .slick-slide2{
+        animation-name: slide2;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        animation-direction: normal;
+        /* animation-iteration-count: infinite; */
+        border-radius: 5px;
+        animation-delay: 3s;
+        padding: 20px;
+        color:white;
+        text-align: right;
+    }
+     @keyframes slide2 {
+         100%{
+            transform: translate(2vh);
+            background-color: #fff;
+            color:black;
+         }
+         0%{
+            transform: translate(0vh);
+         }
+    
+     }
+     .cars1{
+        z-index: 8;
+        animation-name: car1;
+        animation-timing-function: linear;
+        animation-duration: 10s;
+        animation-play-state: running;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    
+        height: 12vh;
+        margin-top: -17vh;
+     }
+     @keyframes car1 {
+        100%{
+            transform: translateX(80vh);
+        }
+        0%{
+            transform: translateX(-380vh);
+        }
+     }
+     .cars2{
+        z-index: 10;
+        animation-name: car2;
+        animation-timing-function: linear;
+        animation-duration: 10s;
+        background-repeat: repeat;
+        animation-play-state: running;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+    
+        height: 15vh;
+        margin-top: -25vh;
+     }
+     @keyframes car2 {
+        100%{
+            transform: translateX(-480vh);
+        }
+        0%{
+            transform: translateX(20vh);
+        }
+     }
+     .butt{
+        width: 40px;
+        margin-left: 30px;
+     }
+     .butt:hover{
+        color: green !important;
+     }
+     .comp{
+        text-decoration: none;
+     }
+     .comp:hover{
+        text-decoration: underline;
+        color: green !important;
+     }
+     .join{
+        height: 50px;
+        width: 30vh;
+        /* margin-left: 30vh; */
+     }
+ }
